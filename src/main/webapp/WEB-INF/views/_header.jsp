@@ -2,32 +2,52 @@
 taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <header class="section-header">
   <section class="header-main border-bottom">
+<%--    top-header--%>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+      <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+<%--        Chọn ngôn ngữ--%>
+        <ul class="ms-4 navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi-translate"></i>
+               Language
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Tiếng Việt</a></li>
+              <li><a class="dropdown-item" href="#">English</a></li>
+            </ul>
+          </li>
+        </ul>
+<%--        Hỗ trợ - Liên hệ - Báo lỗi--%>
+        <ul class="navbar-nav ms-auto me-5">
+          <li class="nav-item">
+            <span class="nav-link text-white">Hỗ trợ</span>
+          </li>
+          <li class="nav-item">
+            <span class="nav-link text-white">Liên hệ</span>
+          </li>
+          <li class="nav-item">
+            <span class="nav-link text-white">Báo lỗi</span>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+<%--  end top-header--%>
+<%--  logo--%>
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-3 py-3">
           <a class="text-body" href="${pageContext.request.contextPath}/">
-            <h3>
-              Laptop Shop
-
-              <span>🌱</span>
-            </h3>
+            <img src="images/logo.png" alt="Logo" width="200px" height="auto">
           </a>
         </div>
-        <!-- col.// -->
-        <div
-          class="col-lg-4 col-xl-5 ${empty sessionScope.currentUser ? 'mb-3 mb-lg-0' : ''}"
-        >
-          <form
-            action="${pageContext.request.contextPath}/search"
-            method="post"
-            class="search"
-          >
+        <!-- col.// Tìm kiem san pham-->
+        <div class="col-lg-4 col-xl-5 ${empty sessionScope.currentUser ? 'mb-3 mb-lg-0' : ''}">
+          <form action="${pageContext.request.contextPath}/search" method="post" class="search">
             <div class="input-group w-100">
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Nhập từ khóa cần tìm ..."
-                name="q"
+              <input type="text" class="form-control" placeholder="Nhập từ khóa cần tìm ..." name="q"
                 value="${requestScope.query}"
               />
               <button class="btn btn-primary" type="submit">
