@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1" pages="2">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="2787" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3149" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -545,7 +545,7 @@
         <mxCell id="hXK-SEx-EnrCW3ID_Bvt-85" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="345" y="1030" width="10" height="780" as="geometry" />
         </mxCell>
-        <mxCell id="hXK-SEx-EnrCW3ID_Bvt-87" value="Nhấn nút Xem giỏ hàng" style="endArrow=classic;html=1;" edge="1" parent="1">
+        <mxCell id="hXK-SEx-EnrCW3ID_Bvt-87" value="Nhấn nút Xem giỏ hàng" style="endArrow=classic;html=1;exitX=0.671;exitY=0.003;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="hXK-SEx-EnrCW3ID_Bvt-83">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="180" y="1030" as="sourcePoint" />
             <mxPoint x="345" y="1030" as="targetPoint" />
