@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1" pages="2">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="1912" dy="1029" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1103" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -70,12 +70,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CiSJBHJ4Xn43Z9WM9_8N-13" value="[Nếu đã nhập thông tin]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=2" parent="1" vertex="1">
-          <mxGeometry x="480" y="310" width="150" height="30" as="geometry" />
+          <mxGeometry x="480" y="390" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CiSJBHJ4Xn43Z9WM9_8N-14" value="Gửi yêu cầu tìm kiếm" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="422.75" y="360" as="sourcePoint" />
-            <mxPoint x="687.25" y="360" as="targetPoint" />
+            <mxPoint x="422.75" y="440" as="sourcePoint" />
+            <mxPoint x="687.25" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CiSJBHJ4Xn43Z9WM9_8N-15" value="Truy vấn sản phẩm" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="1" edge="1">
